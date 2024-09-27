@@ -1,0 +1,33 @@
+body{
+    color: tomato ;
+}
+.texto{
+    color: blue;
+}
+.textito{
+    color: green;
+}
+
+div p {
+
+    color: rgb(15, 132, 136);
+    
+}
+*{
+    font-size: 24px;
+    
+}
+.titulo{
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    border-width: 5px;
+}
+#fondo{
+    background-color: aquamarine;
+    opacity: 3;
+    background-image: url('cascada.jpeg');
+    background-size: auto;
+/*     height: 2000px;
+    width: 1900px; */
+}

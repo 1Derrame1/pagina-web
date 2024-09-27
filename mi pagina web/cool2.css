@@ -1,0 +1,130 @@
+/* Estilos Generales */
+body{
+    background-image: url(cascada.jpeg);
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e; /* Negro oscuro */
+    color: #eee; /* Texto claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del Encabezado */
+header {
+    background-color: #6a0dad; /* Violeta oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+/* Estilos de las Secciones */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #2b2b2b; /* Fondo gris oscuro */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    color: #eee; /* Texto claro */
+}
+
+h2 {
+    font-size: 2em;
+    color: #ba55d3; /* Lila oscuro */
+    border-bottom: 2px solid #6a0dad;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    font-size: 1.2em;
+    line-height: 1.7em;
+}
+
+/* Estilos para la Lista de Detalles Personales */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    font-size: 1.2em;
+}
+
+ul li strong {
+    color: #ba55d3; /* Lila oscuro */
+}
+
+/* Redes Sociales */
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.6em;
+    color: white;
+    background-color: #6a0dad; /* Violeta oscuro */
+    padding: 12px 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #ba55d3; /* Lila claro */
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #121212; /* Negro profundo */
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* Diseño responsivo para móviles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p, ul {
+        font-size: 1.1em;
+    }
+
+    .social-links a {
+        font-size: 1.3em;
+        padding: 10px 14px;
+    }
+}
